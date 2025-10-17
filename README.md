@@ -1,11 +1,5 @@
 # Steam Market Watcher (Python)
 
-## Features
-- Cleaned source (no legacy GitHub handles/links).
-- Standardized project layout with `.gitignore` and `requirements.txt`.
-- Simple CLI entry point to run the tool.
-- MIT licensed.
-
 ## Quick Start
 ```bash
 # 1) Create and activate a virtual environment (recommended)
