@@ -1,0 +1,6 @@
+
+distutils
+requests
+setuptools
+steam_market
+unittest

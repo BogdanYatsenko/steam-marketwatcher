@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "steam-marketwatcher"
+version = "1.0.0"
+description = "Monitor Steam Market data and automate simple tasks."
+authors = [{ name="Bogdan Yatsenko"}]
+license = {text = "MIT License"}
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Environment :: Console",
+    "Intended Audience :: Developers"
+]
+
+[project.urls]
+Homepage = "https://github.com/bogdanyatsenko/steam-marketwatcher"
+Issues = "https://github.com/bogdanyatsenko/steam-marketwatcher/issues"
+
+[project.scripts]
+steam-market = "steam_market.cli:main"
